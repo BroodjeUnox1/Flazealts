@@ -1,0 +1,107 @@
+.banner {
+	height: auto;
+	width: 33%;
+	border-radius: 10px;
+    margin-left: 33%;
+	display: inline-block;
+}
+
+.product {
+ 	margin-top: 4%;
+	border-radius: 10px;
+	cursor: pointer;
+	/*width: 50%;*/
+}
+
+
+.image{
+	width: 50%;
+	height: 50%;
+}
+.productt {
+	margin-top: 4%;
+	border-radius: 10px;
+	cursor: pointer;
+	display: inline-block;
+	/*width: 50%;*/
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.product:hover, .productt:hover {
+	opacity: 0.8;
+}
+
+.div {
+	margin-top: 3%;
+}
+
+/*@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}*/
+
+.background{
+	background: linear-gradient(160deg, #d61528 0%, #ce902d 100%);
+	height: 200%;
+	min-width: 100px;
+	min-height: 200px;
+	width: 100%;
+	position: absolute;
+	z-index: -55;
+}
+
+#particles {
+	height: 200%;
+	position: absolute;
+	width: 100%;
+	z-index: -50;
+}
+
+.button:hover {
+	opacity: 0.95;
+}
+
+.discord {
+	position: absolute;
+	left: 2%;
+	top: 88%;
+	position: fixed;
+}
+
+.dicord-image {
+	width: 20%;
+	height: 20%;
+}
+
+.twitter {
+	position: absolute;
+	left: 2%;
+	top: 80%;
+	position: fixed;
+}
+
+.twitter-image {
+	width: 20%;
+	height: 20%;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media print {
+	
+}
